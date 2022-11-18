@@ -1,7 +1,7 @@
 Movie website
 
 Team:
-Rakhat Yeskenov
+Rakhat Yeskenov,
 Sultan Kydyrmoldin
 
 
