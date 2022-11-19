@@ -5,12 +5,11 @@ Team:
 2) Kydyrmoldin Sultan
 
 This modules need to be installed:
-npm i react-router-dom
-
-npm install react-responsive-carousel
+1) npm i react-router-dom
+2) npm install react-responsive-carousel
 
 Description:
--In the header you can go in different 6 pages
--You can click on movie image and see card of this movie
--API is takes from: https://api.themoviedb.org
+1) In the header you can go in different 6 pages
+2) You can click on movie image and see card of this movie
+3) API is takes from: https://api.themoviedb.org
 https://www.themoviedb.org/
