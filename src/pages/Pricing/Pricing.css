@@ -49,6 +49,7 @@
     padding: 20px;
     text-align: center;
     color: black;
+    /* background-color: #eee; */
 }
 
 /* Grey list item */
@@ -68,6 +69,10 @@
     font-size: 18px;
 }
 
+.li__ {
+    background-color: white;
+}
+ 
 /* Change the width of the three columns to 100%
   (to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
