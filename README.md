@@ -6,6 +6,7 @@ Team:
 
 This modules need to be installed:
 npm i react-router-dom
+
 npm install react-responsive-carousel
 
 Description:
