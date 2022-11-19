@@ -11,5 +11,5 @@ This modules need to be installed:
 Description:
 1) In the header you can go in different 6 pages
 2) You can click on movie image and see card of this movie
-3) API is takes from: https://api.themoviedb.org
+3) API has been taken from: https://api.themoviedb.org
 https://www.themoviedb.org/
