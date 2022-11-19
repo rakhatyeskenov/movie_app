@@ -1,40 +1,6 @@
-* {
-    box-sizing: border-box;
+.App {
+  background-color: #12232E;
+  color: white;
+  font-family: sans-serif;
 }
 
-body {
-    background-color: #eff3f7;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-html, 
-body, 
-#root, 
-.container {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.loader {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-}
-
-.cl1 {
-    position: absolute;
-    top: 100px;
-    left: 240px;
-}
-
-.cl1 button {
-    width: 80px;
-    height: 30px;
-    gap: 20px;
-}
