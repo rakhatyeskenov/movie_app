@@ -4,6 +4,14 @@ body {
     background-color: #12232E;
 }
 
+/* #light {
+    background-color: rgb(130, 117, 117);
+}
+
+#dark {
+    background-color: black;
+} */
+
 html {
     box-sizing: border-box;
 }
@@ -33,9 +41,9 @@ html {
     color: white;
 }
 
-.container {
+/* .container {
     padding: 0 16px;
-}
+} */
 
 .container::after,
 .row::after {
@@ -69,4 +77,10 @@ html {
         width: 100%;
         display: block;
     }
+}
+
+.title_rcm {
+    margin: auto;
+    width: 35%;
+    padding: 10px;
 }

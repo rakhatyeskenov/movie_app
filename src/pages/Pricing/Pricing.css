@@ -2,6 +2,7 @@
     box-sizing: border-box;
   } */
 
+
 /* Create three columns of equal width */
 .container {
     float: left;
@@ -79,4 +80,9 @@
     .columns {
         width: 100%;
     }
+}
+
+.login__wrap {
+    margin-top: 10px;
+    margin-left: 10px;
 }

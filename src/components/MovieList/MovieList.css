@@ -3,12 +3,12 @@
 }
 
 .list__title {
-font-size: 1.75rem;
-margin:  2.5rem;
+    font-size: 1.75rem;
+    margin: 2.5rem;
 }
 
 .list__cards {
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     justify-content: center;
 }

@@ -1,12 +1,16 @@
-import React, {useEffect, useState} from "react"
+import React, { useEffect, useState } from "react"
 import "./MovieList.css"
 import { useParams } from "react-router-dom"
 import Cards from "../Card/Card"
+import { UserContext } from "../Context/UserContext"
+import { useContext } from "react"
 
 const MovieList = () => {
-    
+
     const [movieList, setMovieList] = useState([])
-    const {type} = useParams()
+    const { type } = useParams()
+
+    const { user } = useContext(UserContext);
 
     useEffect(() => {
         getData()
@@ -18,12 +22,15 @@ const MovieList = () => {
 
     const getData = () => {
         fetch(`https://api.themoviedb.org/3/movie/${type ? type : "popular"}?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US`)
-        .then(res => res.json())
-        .then(data => setMovieList(data.results))
+            .then(res => res.json())
+            .then(data => setMovieList(data.results))
     }
 
     return (
         <div className="movie__list">
+            <div>
+                <pre>{JSON.stringify(user, null, 2)}</pre>
+            </div>
             <h2 className="list__title">{(type ? type : "POPULAR").toUpperCase()}</h2>
             <div className="list__cards">
                 {

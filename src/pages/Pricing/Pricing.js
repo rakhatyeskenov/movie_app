@@ -1,11 +1,17 @@
-import React, { useEffect, useState } from "react"
+import React, { useContext, useEffect, useState } from "react"
 import "./Pricing.css"
 import { Link } from "react-router-dom";
+import { UserContext } from "../../components/Context/UserContext";
 
 const Pricing = () => {
 
+    const {user} = useContext(UserContext);
+
     return (
         <>
+        <div className="login__wrap">
+            <pre>{JSON.stringify(user, null, 2)}</pre>
+        </div>  
             <div className="container">
                 <ul className="price">
                     <li className="header__ header__basic   ">Free</li>
