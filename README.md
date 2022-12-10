@@ -50,4 +50,6 @@ Used createContext, if in Home page will login, in every page this will be updat
 See UserContext.js, App.js and in Home.js click login and check 
 if every page updated if it logged in or not.
 
+![This is how our website look like:](https://github.com/rakhatyeskenov/movie_app/blob/master/img/react1.png)
+
 
