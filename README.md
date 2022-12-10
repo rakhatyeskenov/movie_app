@@ -4,6 +4,7 @@ Team:
 1) Yeskenov Rakhat
 2) Kydyrmoldin Sultan
 
+At the very bottom of the Readme you can see screenshots of our website.
 
 This modules need to be installed:
 
@@ -50,6 +51,9 @@ Used createContext, if in Home page will login, in every page this will be updat
 See UserContext.js, App.js and in Home.js click login and check 
 if every page updated if it logged in or not.
 
-![This is how our website look like:](https://github.com/rakhatyeskenov/movie_app/blob/master/img/react1.png)
+This is how our website look like:
 
+![This is how our website look like:](https://github.com/rakhatyeskenov/movie_app/blob/master/img/react1.png)
+![](https://github.com/rakhatyeskenov/movie_app/blob/master/img/react2.png)
+![](https://github.com/rakhatyeskenov/movie_app/blob/master/img/react3.png)
 
